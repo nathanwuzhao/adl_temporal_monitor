@@ -12,7 +12,7 @@ recipe tasks can be expressed as temporal logic specifications:
 - **LTL** captures discrete step structure (ordering constraints, preconditions, skip detection)
 - **STL** captures continuous signals (time-on-task, quantity, physical state)
 
-a runtime monitor evaluates these specs against a stream of perceptual observations. when a specification's **robustness margin**, a real-valued measure of how close the system is to a violation, falls below a threshold, a cue is triggered. This enables *proactive* intervention before failure, not just reactive response after it.
+a runtime monitor evaluates these specs against a stream of perceptual observations. when a specification's **robustness margin**, a real-valued measure of how close the system is to a violation, falls below a threshold, a cue is triggered. this enables *proactive* intervention before failure, not just reactive response after it.
 
 ## structure
 

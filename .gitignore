@@ -1,1 +1,68 @@
+literature/
+plan.md
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions / build outputs
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
 .venv/
+venv/
+env/
+ENV/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Project data
+data/videos/
+data/raw/
+data/interim/
+data/processed/
+data/checkpoints/
+data/models/
+
+# Large media/model files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.h264
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# Logs
+logs/
+*.log
+
+# OS files
+Thumbs.db
